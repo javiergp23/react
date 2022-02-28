@@ -1,3 +1,4 @@
+import CartWidget from './CartWidget';
 
 function Navbar() {
     return(
@@ -32,7 +33,7 @@ function Navbar() {
                     </ul>
                     <form Class="d-flex">
                         <input Class="form-control me-2" type="search" placeholder="Busqueda" aria-label="Search"/>
-                        <button Class="btn btn-outline-success" type="submit">Buscar</button>
+                        <CartWidget/>
                     </form>
                 </div>
             </div>

@@ -1,4 +1,5 @@
-import Navbar from './compontentes/Navbar';
+import Navbar from './componentes/Navbar';
+import Titulo from './componentes/Titulo';
 
 function App() {
   return (
@@ -6,6 +7,9 @@ function App() {
       <header>
         <div> 
           <Navbar/>
+        </div>
+        <div>
+          <Titulo titulo = 'ESTE ES EL TITULO'/>
         </div>
       </header>
     </div>
